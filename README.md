@@ -1,23 +1,20 @@
-# BrainPainter website - Brain Visualisation and Image Generation from the browser
+# Disease Progression Model web applications
+## Code forked from [mrazvan22/brain-coloring-website](https://github.com/mrazvan22/brain-coloring-website)
+## Thanks Raz!
 
-![Front page](static/frontPage.png)
-
-For any issues, please email me: razvan (at) csail-mit-edu (replace dash with dot). The website template is open-source 
-and adapted from the grayscale template: https://startbootstrap.com/themes/grayscale/. It is published under the free, MIT license. 
-
-
+Raz's website template is open-source and adapted from the grayscale template: https://startbootstrap.com/themes/grayscale/. It was published under the free, MIT license. 
 
 ## Installation
 
 1. Install Flask
 
-2. Install BrainPainter using docker: 
+2. FIXME: Install your favourite [EuroPOND model(s)](http://europond.eu/software) using docker:
 
-`sudo docker run -it mrazvan22/brain-coloring`. 
+`sudo docker run -it europond/model-x`
 
-Once docker container finishes installation, it should automatically connect to the shell. Once inside docker, pull the latest changes if any:
+Once the docker container finishes installation, it should automatically connect to the shell. Once inside docker, pull the latest changes if any:
 
-    ``` cd /home/brain-coloring/ ```
+    ``` cd /home/model-x/ ```
     
     ``` git pull origin master```
 
